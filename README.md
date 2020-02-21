@@ -1,0 +1,2 @@
+# ezreal
+everyday blog
