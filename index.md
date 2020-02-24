@@ -14,7 +14,15 @@ layout: default
 * ~~CVE-2017-7308~~
 
 ## Kernel
-* [Multi-Level Feedback Queue](./xv6.html)
+* [Multi-Level Feedback Queue](./mlfq.html)
+- xv6
+  - [lock](./xv6-lock.html)
+  - [interrupt & trap & syscall](./xv6-interrupt.html)
+  - schedule
+  - memory
+  - file
+  - init
+    
 
 ## Clang
 
