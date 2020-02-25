@@ -15,13 +15,8 @@ layout: default
 
 ## Kernel
 * [Multi-Level Feedback Queue](./mlfq.html)
-- xv6
-  - [lock](./xv6-lock.html)
-  - [interrupt & trap & syscall](./xv6-interrupt.html)
-  - schedule
-  - memory
-  - file
-  - init
+* [xv6](./xv6/xv6.html)
+* [proc](./proc.html)
     
 
 ## Clang
