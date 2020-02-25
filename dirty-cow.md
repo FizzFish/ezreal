@@ -36,12 +36,12 @@ int main() {
 
 ## 核心代码分析
 
-核心逻辑：
+* 核心逻辑：
 - write("/proc/self/mem", map, "anything")时，会触发核心的内存页管理系统。
   - 首次，缺页并调页(page in)
   - 第二次，页表没有写权限，去处FOLL\_WRITE请求标志(这是合理的：因为open成功了，说明可以写，页表的权限不可写也是自洽的，例如copy-on-write)。
   - 第三次，去除FOLL\_WRITE标志请求页面，成功请求。
-BUG逻辑：
+* BUG逻辑：
   - 首次，缺页并调页(page in)
   - 第二次，页表没有写权限，去处FOLL\_WRITE请求标志(这是合理的：因为open成功了，说明可以写，页表的权限不可写也是自洽的，例如copy-on-write)。
   - madvise清空map的页表项
