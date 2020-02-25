@@ -10,7 +10,7 @@ layout: default
 # Global variables
 struct gatedesc idt[256];//Interrupt descriptor table (shared by all CPUS)
 uint vectors[];
-```C
+```c
 struct gatedesc {
   uint off_15_0 : 16;   // low 16 bits of offset in segment
   uint cs : 16;         // code segment selector
@@ -33,7 +33,7 @@ vector0:
 
 # Init
 
-```C
+```c
 void tvinit(void)
 {
   for(i = 0; i < 256; i++)
@@ -52,7 +52,7 @@ void lidt(struct gatedesc *p, int size) {
 ```
 
 # Handle
-```C
+```c
 void trap(struct trapframe * tf) {
     if(tf->trapno == T_SYSCALL) {//handle syscall
         proc->tf = tf;
@@ -83,7 +83,7 @@ void trap(struct trapframe * tf) {
 
 # Syscall
 
-```C
+```c
 void syscall(void)
 {
   num = proc->tf->eax;

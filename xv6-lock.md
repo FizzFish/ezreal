@@ -16,7 +16,7 @@ struct spinlock {
 ```
 
 ## initlock
-```
+```c
 void
 initlock(struct spinlock *lk, char *name)
 {
