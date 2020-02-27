@@ -7,7 +7,7 @@ layout: default
 * [lock](./xv6-lock.html)
 * [interrupt & trap & syscall](./xv6-interrupt.html)
 * schedule
-* memory
+* [memory](./xv6-vm.html)
 * file
 * init
     
