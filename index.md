@@ -5,7 +5,8 @@ layout: default
 ## Who needs a map?
 
 ## CVE
-* [CVE-2016-5195 Dirty COW](./dirty-cow.html)
+* [Dirty COW](./dirty-cow.html)
+* [read-after-free](./read-after-free.html)
 ### todo
 * ~~CVE-2016-0728~~
 * ~~CVE-2016-9793~~
@@ -29,3 +30,7 @@ layout: default
 - JS/JQuery
 
 ## Language
+
+## 软件架构设计
+* [设计模式](./design-pattern.html)
+* [4+1视图](./views.html)
