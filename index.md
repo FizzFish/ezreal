@@ -19,6 +19,8 @@ layout: default
 * [xv6](./xv6/xv6.html)
 * [proc](./proc.html)
     
+## Exploitation
+* [hands off and putting slab/slub fengshui in blackbox](./eu19-slub.md)[PDF](./pdf/eu-19-Chen-Hands-Off-And-Putting-SLAB-SLUB-Feng-Shui-In-A-Blackbox.pdf)
 
 ## Clang
 
