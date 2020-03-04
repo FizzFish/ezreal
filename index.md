@@ -25,6 +25,9 @@ layout: default
     - [PDF](./pdf/eu-19-Chen-Hands-Off-And-Putting-SLAB-SLUB-Feng-Shui-In-A-Blackbox.pdf)\
     - [paper](./pdf/SLAKE.pdf)
 
+## Exploration
+* [Static Analysis of Concurrency UAF Bugs in Linux Device Driver](./static-uaf.html)
+
 ## Clang
 
 ## Algorithm
