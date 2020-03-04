@@ -20,7 +20,7 @@ layout: default
 * [proc](./proc.html)
     
 ## Exploitation
-* git@github.com:FizzFish/ezreal.git
+* https://github.com/xairy/linux-kernel-exploitation
 - [hands off and putting slab/slub fengshui in blackbox](./eu19-slub.md)
     - [PDF](./pdf/eu-19-Chen-Hands-Off-And-Putting-SLAB-SLUB-Feng-Shui-In-A-Blackbox.pdf)\
     - [paper](./pdf/SLAKE.pdf)

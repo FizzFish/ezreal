@@ -14,6 +14,7 @@ git --grep "use after free" or "use-after-free"
 
 ## 算法
 1. Local-Global Strategy
+
 1.1 get the pairs of possible concurrently executed functions
 ```c
 pos_func_pair_set = 0
