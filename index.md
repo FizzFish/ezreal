@@ -30,6 +30,9 @@ layout: default
 
 ## Clang
 
+## Glibc
+* [User canary from glibc ld](./ld.md)
+
 ## Algorithm
 * [重复博弈纳什均衡](./repeated-nash.html)
 
