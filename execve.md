@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 # linux\_binprm
 ```c
 struct linux_binprm {
@@ -62,7 +63,7 @@ static int do_execve_common(filename, argv, envp)
 	retval = search_binary_handler(bprm);//从注册的handler中找到合适的处理函数
 ```
 
-#load\_elf\_binary
+# load\_elf\_binary
 
 ```c
 load_elf_binary(struct linux_binprm *bprm)
